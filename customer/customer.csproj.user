@@ -7,6 +7,9 @@
     <Compile Update="CustmerPreview.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="DeleteCustmer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MDIParentMain.cs">
       <SubType>Form</SubType>
     </Compile>

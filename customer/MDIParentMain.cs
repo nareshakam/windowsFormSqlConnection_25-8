@@ -111,5 +111,12 @@ namespace customer
             searchCustmer sc = new searchCustmer();
             sc.Show();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            DeleteCustmer dc = new DeleteCustmer();
+            dc.Show();
+            dc.MdiParent = this;
+        }
     }
 }

@@ -64,7 +64,7 @@ namespace customer
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(30, 59);
+            this.label1.Location = new System.Drawing.Point(30, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 28);
             this.label1.TabIndex = 2;
@@ -113,7 +113,7 @@ namespace customer
             // txtName
             // 
             this.txtName.AccessibleName = "";
-            this.txtName.Location = new System.Drawing.Point(233, 56);
+            this.txtName.Location = new System.Drawing.Point(233, 44);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(259, 31);
             this.txtName.TabIndex = 7;
@@ -127,7 +127,6 @@ namespace customer
             this.checkReading.TabIndex = 9;
             this.checkReading.Text = "Reading";
             this.checkReading.UseVisualStyleBackColor = true;
-            this.checkReading.CheckedChanged += new System.EventHandler(this.checkReading_CheckedChanged);
             // 
             // checkPainting
             // 
@@ -226,7 +225,7 @@ namespace customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(545, 492);
+            this.ClientSize = new System.Drawing.Size(545, 442);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.gBsex);
             this.Controls.Add(this.cmbCuntry);
@@ -240,7 +239,6 @@ namespace customer
             this.Controls.Add(this.PreviewBtn);
             this.Name = "CustmerRegistration";
             this.Text = "Customer Registration";
-            this.Load += new System.EventHandler(this.CustmerRegistration_Load);
             this.gBsex.ResumeLayout(false);
             this.gBsex.PerformLayout();
             this.groupBox2.ResumeLayout(false);

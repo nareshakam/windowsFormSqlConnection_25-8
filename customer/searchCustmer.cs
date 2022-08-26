@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace customer
 {
@@ -18,8 +19,9 @@ namespace customer
 
         private void BtnSearch_Click(object sender, EventArgs e)
         {
-                //1.sql connection
-                SqlConnection conn = new SqlConnection("Data Source=IN-WIN-NAKKAM\\SQLEXPRESS;Initial Catalog=myCust;User ID=sa;Password=12345;Pooling=False");
+            //1.sql connection
+            String ConnectionString = ConfigurationManager.ConnectionStrings["DbCon"].ToString();
+                SqlConnection conn = new SqlConnection(ConnectionString);
                 conn.Open();
 
                 //2.fire the Command object

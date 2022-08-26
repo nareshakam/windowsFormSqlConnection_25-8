@@ -25,3 +25,5 @@ D:\cSharp\customer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Syste
 D:\cSharp\customer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\cSharp\customer\obj\Debug\netcoreapp3.1\customer.csproj.CopyComplete
 D:\cSharp\customer\obj\Debug\netcoreapp3.1\customer.Properties.Resources.resources
+D:\cSharp\customer\bin\Debug\netcoreapp3.1\customer.dll.config
+D:\cSharp\customer\obj\Debug\netcoreapp3.1\customer.DeleteCustmer.resources

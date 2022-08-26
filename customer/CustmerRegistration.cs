@@ -13,6 +13,13 @@ namespace customer
 {
     public partial class CustmerRegistration : Form
     {
+        //for Accesing diffrent form class
+        String custName = "";
+        String sex = "";
+        String hobbies = "";
+        String Status = "";
+        String cuntry = "";
+        //
         public CustmerRegistration()
         {
             InitializeComponent();
@@ -23,14 +30,16 @@ namespace customer
            
         CommonCode cd = new CommonCode();
 
+            custName = txtName.Text;
+            //String custId = txtCustID.Text;
             if (cd.namevalidation(txtName.Text) == false)
             {
                 MessageBox.Show("Custmer name Invalied....!");
                 return;
             }
-            String sex = "";
-            String hobbies = "";
-            String Status = "";
+            sex = "";
+            hobbies = "";
+            Status = "";
             if(radioMarried.Checked)
             {
                 Status = "Married";
@@ -59,7 +68,7 @@ namespace customer
             {
                 sex = "Female";
             }
-            String cuntry = "";//own Adding to Handile the Exception start 1
+            cuntry = "";//own Adding to Handile the Exception start 1
             if(cmbCuntry.SelectedValue==null)
             {
                 cuntry = cmbCuntry.Text;
@@ -98,7 +107,67 @@ namespace customer
 
         }
 
+        private void radioUnmarried_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbCuntry_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioMale_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gBsex_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private void checkReading_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkPainting_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioMarried_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
