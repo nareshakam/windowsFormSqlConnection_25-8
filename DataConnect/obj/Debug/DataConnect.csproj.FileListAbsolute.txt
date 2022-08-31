@@ -1,0 +1,6 @@
+D:\cSharp\DataConnect\bin\Debug\DataConnect.dll
+D:\cSharp\DataConnect\bin\Debug\DataConnect.pdb
+D:\cSharp\DataConnect\obj\Debug\DataConnect.csproj.AssemblyReference.cache
+D:\cSharp\DataConnect\obj\Debug\DataConnect.csproj.CoreCompileInputs.cache
+D:\cSharp\DataConnect\obj\Debug\DataConnect.dll
+D:\cSharp\DataConnect\obj\Debug\DataConnect.pdb
